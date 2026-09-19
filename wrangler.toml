@@ -7,5 +7,5 @@ compatibility_date = "2025-01-01"
 SUFFIX = "mc-lhz.de5.net"
 
 routes = [
-  { pattern = "*.mc-lhz.de5.net/*", zone_name = "mc-lhz.de5.net" }
+	{ pattern = "*.mc-lhz.de5.net/*", zone_name = "mc-lhz.de5.net" }
 ]
