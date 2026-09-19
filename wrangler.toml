@@ -1,0 +1,11 @@
+name = "speedup"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# 本 worker 部署在 *.mc-lhz.de5.net 下，子域即 Base32 编码的上游 host
+[vars]
+SUFFIX = "mc-lhz.de5.net"
+
+routes = [
+  { pattern = "*.mc-lhz.de5.net/*", zone_name = "mc-lhz.de5.net" }
+]
